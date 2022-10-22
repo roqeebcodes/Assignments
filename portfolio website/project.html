@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        body{
+            background-image: url(portfolio-bg.jpg);
+        }
+        
+        section{
+            display: flex;
+            margin-top: 150px;
+            justify-content: space-around;
+        }
+        section .project1{
+            border: 5px solid goldenrod ;
+            width: 30%;
+            height: 380px;
+            background-color: #fff;
+            border-radius: 2%;
+            
+        }
+        section .project2{
+            border: 5px solid goldenrod;
+            width: 30%;
+            height: 380px ;
+            background-color: #fff;
+            border-radius: 2%;
+        }
+        a{
+           display: block;
+           margin: 0;
+           text-align: center;
+           text-decoration: none;
+            border-top: 3px solid goldenrod;
+            color: rgb(77, 55, 1);
+            padding: 15px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            width: auto;
+        }
+        .btn-nav{
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            margin-top: 30px;
+            width: 100%;      
+        }
+        .btn-nav a{
+            text-decoration: none;
+            margin: 10px;
+            border: 1px solid goldenrod;
+             color: rgb(77, 55, 1);
+            padding: 10px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        button:hover{
+            background-color: goldenrod;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <section>
+        <div class="project1">
+            <img src="resume.PNG" alt="" height="320px" width="391px">
+            <a href="https://roqeebresume.netlify.app/">View Resume Page Here</a>
+        </div>
+        <div class="project2">
+            <img src="card.PNG" alt="" height="320px" width="391px">
+            <a href="https://jade-alpaca-54585e.netlify.app/">View Profile Card page here</a>
+        </div> 
+    </section>
+
+    <div class="btn-nav">
+        <a href="contact.html">Contact me</a>
+        <a href="index.html">Home</a>
+    </div>
+    
+</body>
+</html>
