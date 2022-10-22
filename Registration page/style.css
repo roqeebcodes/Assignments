@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30vh;
+    background-image: radial-gradient(#27A09E, #7DE393);
+    width: auto;
+    height: 85%; 
+    font-family: cursive;
+    
+}
+.reg-page{
+    
+    flex: 3;
+    /* margin: 1vh; */
+    border: 2px solid #fff;
+    height: auto ;
+    background-image: radial-gradient(#D3F5CE, #7DE393);
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding: 0;
+    /* border-radius: 5%; */
+    
+}
+.reg-page input, select{
+    margin: 1.2vh;
+    height: 40px;
+    padding: 0;
+    width: 250px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+    font-family: cursive;
+    border: none;
+    border-bottom: 2px solid gray;
+    background: none;
+ 
+}
+ 
+ 
+.reg-page button{
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.login-page button {
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.login-page{
+    /* margin: 10vh; */
+    /* border: 2px solid #fff; */
+    /* height: fit-content; */
+    text-align: center;
+    /* width: max-content; */
+    /* flex: 3 ; */
+      font-size: medium;  
+      /* border-radius: 5%; */
+      
+}
+.login-page form{
+    margin: 10vh;
+}
+.login-page input, button{
+    /* margin: 30px; */
+    height: 40px;
+    padding: 0;
+    margin: 3vh;
+    width: 250px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+    font-family: cursive; 
+     
+}
+.login-page input{
+    border: none;
+    border-bottom: 2px solid gray;
+    background: none;
+}
+ input:focus{
+    border: none;
+    background-color: #7DE393;
+}
