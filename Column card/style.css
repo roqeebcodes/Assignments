@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    margin: auto;
+    padding: 0;
+    width: 64%;
+    height: fit-content ;
+    margin-top: 100px;
+
+}
+.sedan{
+    background-color: rgb(204, 118, 20);
+    flex: 1;
+    padding: 30px;
+    text-align: start; 
+    border-radius: 10px 0px 0px 10px ;
+     
+}
+.suvs{
+    background-color: teal;
+    flex: 1;
+    padding: 30px;
+    text-align: start;
+   
+}
+.luxury{
+    background-color: rgb(22, 61, 61);
+    flex: 1;
+    padding: 30px;
+    text-align: start;
+    border-radius: 0px 10px 10px 0px;   
+}
+.icon-bg{
+    background-color: rgba(59, 66, 71, 0.445);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+img{
+    width: 35px;
+    float: right;
+    margin-right: -9px;
+}
+h1{
+    margin-top: 40px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;   
+}
+p{
+    margin-top: 50px;
+    line-break: auto;
+    color: #fff;
+    line-height: 25px;
+}
+.link{
+    margin-top: 50px;
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    width: 150px;
+    height: 43px;     
+}
+.link a{
+    text-decoration: none;
+    color: teal;
+    font-weight: 600;
+    text-transform: capitalize; 
+}
+
