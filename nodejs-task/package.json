@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-task",
+  "version": "1.0.0",
+  "description": "Nodejs APP",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Roqeeb Adegbola",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "uuid": "^9.0.0"
+  }
+}
